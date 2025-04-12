@@ -34,10 +34,10 @@ function renderContacts() {
                 </p>
                 </div>
                 <div class="actions">
-                    <button class="updateContact" onclick="updateContact(${index})">
+                    <button id="updateContact" onclick="updateContact(${index})">
                         <i class="fa-solid fa-pen"></i>Ubah
                     </button>
-                    <button class="deleteContact" onclick="deleteContact(${index})">
+                    <button id="deleteContact" onclick="deleteContact(${index})">
                         <i class="fa-solid fa-trash"></i>Hapus
                     </button>
                 </div>
