@@ -1,6 +1,7 @@
 {
   "name": "Daftar Kontak",
   "short_name": "Daftar Kontak",
+  "description": "Web untuk menyimpan daftar kontak pada Local storage.",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -17,5 +18,7 @@
   ],
   "theme_color": "#f5fbfe",
   "background_color": "#185a85",
-  "display": "standalone"
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
 }
